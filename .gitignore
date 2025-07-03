@@ -1,0 +1,47 @@
+# Qt build
+*.pro.user
+*.autosave
+*.user
+*.qmlc
+*.jsc
+*.moc
+*.o
+*.obj
+*.so
+*.a
+*.dll
+*.exe
+*.log
+build-*/
+
+# STM32CubeIDE build
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.dep
+*.d
+*.o
+*.launch
+*.settings/
+build/
+Debug/
+Release/
+.project
+.cproject
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.egg-info/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
